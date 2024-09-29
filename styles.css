@@ -1,0 +1,54 @@
+*{
+    border:0;
+    padding:0;
+}
+body{
+    background-color: rgb(125,125,125);
+    text-align: center;
+}
+figure{
+    display: inline-block;
+    padding:15px;
+    background-color: rgb(255, 255, 255);
+    place-content: center;
+    margin: 20px 40px;
+    text-align: left;
+    max-height: 800px;
+    overflow: hidden;
+
+}
+#image{
+  display:block;
+height: auto;
+width: 100%;
+max-width:100%
+}
+  p, li{
+    font-size: 2em;
+  }
+  li{
+    list-style-type: none;
+  }
+section{
+    text-align: justify;
+    background-color: rgb(200,200,200);
+    border-radius:10px;
+    padding: 0.1rem 3rem;
+    margin:30px 2em;
+
+}
+#title{
+    font-size: 4rem;
+}
+@media only screen and (max-width: 600px) {
+    #title{
+        font-size: 2rem;
+    }
+    figure, section{
+        padding: 20px;
+        margin: 10px 5px;
+    }
+    p, li{
+        font-size: 1.4em;
+      }
+    }
